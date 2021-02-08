@@ -2,7 +2,7 @@
   "basics": {
     "name": "Samudra Palijama",
     "label": "Mobile Engineer",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "picture": "https://indrapalijama.github.io/template/images/bio.png",
     "email": "indrapalijama@gmail.com",
     "phone": "000-000-000",
     "website": "https://indrapalijama.github.io",
@@ -95,11 +95,11 @@
   ],
   "languages": [
     {
-      "languagee": "Indonesian",
+      "language": "Indonesian",
       "fluency": "Fluent"
     },
     {
-      "languagee": "English",
+      "language": "English",
       "fluency": "Fluent"
     }
   ]
