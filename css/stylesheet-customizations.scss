@@ -12,7 +12,8 @@ body {
 
 // Customize the menubar color
 .ui.menu {
-  background: rgb(248, 248, 255);
+  // background: rgb(248, 248, 255);
+  background: darken(rgb(42, 189, 206), 20%);
 }
 
 // Customize the home page icon colors
