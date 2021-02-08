@@ -6,7 +6,7 @@
     "email": "indrapalijama@gmail.com",
     "phone": "",
     "website": "https://indrapalijama.github.io",
-    "summary": "Hello i am a (wannabe) Mobile Engineer, with experience working as a developer in tech-Consultant company.",
+    "summary": "Hello! i'm a (wannabe) Mobile Engineer, with experience working as a mobile developer in tech-consultant company.",
     "location": {
       "address": "Jl. Kuningan Bar. 1, Mampang Prapatan, DKI Jakarta",
       "postalCode": "12710",
@@ -30,15 +30,23 @@
   "interests": [
     {
       "name": "Mobile Development",
-      "keywords": []
+      "keywords": [
+        "Hybrid Framework",
+        "Basic Native Android/iOS"
+      ]
     },
     {
-      "name": "Hybrid Framework",
-      "keywords": []
+      "name": "Frontend Development",
+      "keywords": [
+        "Angular",
+        "Typescript"
+      ]
     },
     {
-      "name": "Angular",
-      "keywords": []
+      "name": "Backend Development",
+      "keywords": [
+        "NestJS"
+      ]
     }
   ],
   "skills": [
@@ -47,6 +55,7 @@
       "level": "",
       "keywords": [
         "Angular",
+        "Typescript",
         "Javascript",
         "Ionic Framework",
         "NestJS"
@@ -56,9 +65,11 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS 11.2",
-        "VSCode",
-        "Git/GitHub"
+        "MacOS",
+        "VS Code",
+        "Git/GitHub",
+        "Postman",
+        "Notion"
       ]
     }
   ],
