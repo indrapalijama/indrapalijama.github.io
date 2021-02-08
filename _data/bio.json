@@ -96,5 +96,16 @@
       "name": "Available upon request",
       "reference": ""
     }
+  ],
+  "Hobbies": [
+    {
+      "name" : "Playing Games"
+    },
+    {
+      "name" : "Procrastinating" 
+    },
+    {
+      "name" : "Binge-watching netflix" 
+    }
   ]
 }
