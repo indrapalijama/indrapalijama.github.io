@@ -4,14 +4,14 @@
     "label": "Mobile Engineer",
     "picture": "https://indrapalijama.github.io/images/bio.png",
     "email": "indrapalijama@gmail.com",
-    "phone": "000-000-000",
+    "phone": "",
     "website": "https://indrapalijama.github.io",
     "summary": "Hello i am a (wannabe) Mobile Engineer, with experience working as a developer in tech-Consultant company.",
     "location": {
-      "address": "Jl. Kuningan Bar. 1, Kec. Mampang Prpt, Daerah Khusus Ibukota Jakarta",
+      "address": "Jl. Kuningan Bar. 1, Mampang Prapatan, DKI Jakarta",
       "postalCode": "12710",
       "city": "Jakarta Selatan",
-      "countryCode": "INA",
+      "countryCode": "Indonesia",
       "region": ""
     },
     "profiles": [
@@ -75,7 +75,7 @@
   ],
   "work": [
     {
-      "company": "Computrade Technology International, PT",
+      "company": "Computrade Technology International",
       "position": "Mobile Engineer",
       "website": "",
       "startDate": "2018",
