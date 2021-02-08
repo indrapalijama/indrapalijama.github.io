@@ -30,23 +30,15 @@
   "interests": [
     {
       "name": "Mobile Development",
-      "keywords": [
-        "Hybrid Framework",
-        "Basic Native Android/iOS"
-      ]
+      "keywords": []
     },
     {
       "name": "Frontend Development",
-      "keywords": [
-        "Angular",
-        "Typescript"
-      ]
+      "keywords": []
     },
     {
       "name": "Backend Development",
-      "keywords": [
-        "NestJS"
-      ]
+      "keywords": []
     }
   ],
   "skills": [
