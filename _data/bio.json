@@ -30,18 +30,15 @@
   "interests": [
     {
       "name": "Mobile Development",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Hybrid Framework",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Angular",
-      "keywords": [
-      ]
+      "keywords": []
     }
   ],
   "skills": [
@@ -59,9 +56,9 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Big Sur",
-        "Git/GitHub",
+        "MacOS 11.2",
+        "VSCode",
+        "Git/GitHub"
       ]
     }
   ],
@@ -73,8 +70,7 @@
       "startDate": "2012",
       "endDate": "2017",
       "gpa": "",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
@@ -87,7 +83,7 @@
       "summary": "Developing and Maintaining Company's CRM Mobile Apps",
       "highlights": [
         "Developing and Maintaining Mobile Apps",
-        "Designing and implementating new features and modules in Mobile Apps"
+        "Designing and implementating new features for Mobile Apps"
       ]
     }
   ],
@@ -97,15 +93,14 @@
       "reference": ""
     }
   ],
-  "Hobbies": [
+  "languages": [
     {
-      "name" : "Playing Games"
+      "languagee": "Indonesian",
+      "fluency": "Fluent"
     },
     {
-      "name" : "Procrastinating" 
-    },
-    {
-      "name" : "Binge-watching netflix" 
+      "languagee": "English",
+      "fluency": "Fluent"
     }
   ]
 }
