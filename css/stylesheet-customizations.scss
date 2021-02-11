@@ -12,7 +12,7 @@ $uh-green-light: lighten($uh-green-official, 10%);
 // Customize the menubar color
 .ui.menu {
   background: $uh-green-light;
-
+  border-radius: 0;
   a.item {
     color: white;
 
