@@ -25,8 +25,8 @@ For this project, I was the  programmer who was responsible for developing and p
 
 For the code itself is saving under a private repositories in Github because it contains a private data companies use.
 
-From now on, this apps has been removed from google play store due to companies request, so i'm no longer have business with them anymore. Please
+From now on, this apps has been removed from google play store due to companies request, so i'm no longer have business with them anymore.
 
-If you want to discuss on this project, or have something to talk about. Feel free to contact me!
+If you want to discuss on this project, or have something to talk about. Feel free to [contact me](indrapalijama.github.io) or simply just run `npx indrapalijama` from your terminal!
 
 
