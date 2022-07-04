@@ -82,11 +82,24 @@
       "position": "Mobile Engineer",
       "website": "",
       "startDate": "2018",
-      "endDate": "Present",
+      "endDate": "2022",
       "summary": "Developing and Maintaining Company's CRM Mobile Apps",
       "highlights": [
         "Developing and Maintaining Mobile Apps",
         "Designing and implementating new features for Mobile Apps"
+      ]
+    },
+    {
+      "company": "Anabatic Technologies",
+      "position": "Developer - System RnD",
+      "website": "",
+      "startDate": "2022",
+      "endDate": "Present",
+      "summary": "Developing and Maintaining Company's CRM Mobile Apps",
+      "highlights": [
+        "Developing and Maintaining Mobile Apps",
+        "Designing and implementating new features for Mobile Apps",
+        "Fullstack stuff"
       ]
     }
   ]
