@@ -23,7 +23,7 @@ I created this backend or application simply to get bible passage and to get dai
 
 I made this in spite of learning how to scrapping web data using cheerio.
 
-For the code itself, you can check it at my [repo](https://github.com/indrapalijama/alkitab-api) 
+For the code itself, you can check it at my [repo](https://github.com/indrapalijama/alkitab-api-v2) 
 
 If you want to discuss on this project, or have something to talk about. Feel free to [contact me](indrapalijama.github.io) or simply just run `npx indrapalijama` from your terminal!
 
