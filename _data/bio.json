@@ -6,13 +6,13 @@
     "email": "indrapalijama@gmail.com",
     "phone": "",
     "website": "https://indrapalijama.github.io",
-    "summary": "Fullstack Developer. Passionate about software engineering and learning human languages.",
+    "summary": "Motivated, proactive, and hands-on developer with 4+ years experience developing and managing information systems for software development",
     "location": {
-      "address": "Jl. Kuningan Bar. 1, Mampang Prapatan, DKI Jakarta",
+      "address": "Jl. Kuningan Barat 1",
       "postalCode": "12710",
       "city": "Jakarta Selatan",
-      "countryCode": "Indonesia",
-      "region": ""
+      "countryCode": "ID",
+      "region": "DK Jakarta"
     },
     "profiles": [
       {
@@ -33,7 +33,7 @@
       "keywords": []
     },
     {
-      "name": "Frontend Development",
+      "name": "Web",
       "keywords": []
     },
     {
@@ -50,18 +50,19 @@
         "Typescript",
         "Javascript",
         "Ionic Framework",
-        "NestJS"
+        "NestJS",
+        "ExpressJS"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Tools",
       "level": "",
       "keywords": [
-        "MacOS",
         "VS Code",
         "Git/GitHub",
         "Postman",
-        "Notion"
+        "Notion",
+        "DBeaver"
       ]
     }
   ],
@@ -73,7 +74,9 @@
       "startDate": "2012",
       "endDate": "2017",
       "gpa": "",
-      "courses": []
+      "courses": [
+        "Mobile Programming"
+      ]
     }
   ],
   "work": [
@@ -86,7 +89,8 @@
       "summary": "Developing and Maintaining Company's CRM Mobile Apps",
       "highlights": [
         "Developing and Maintaining Mobile Apps",
-        "Designing and implementating new features for Mobile Apps"
+        "Designing and implementating new features for Mobile Apps",
+        "Research and implementing new technologies or stacks for future use"
       ]
     },
     {
@@ -99,7 +103,9 @@
       "highlights": [
         "Developing and Maintaining Mobile Apps",
         "Designing and implementating new features for Mobile Apps",
-        "Fullstack stuff"
+        "Research and implementing new technologies or stacks for future use",
+        "Testing the developed apps",
+        "Deploy mobile apps to google play and apple apps store"
       ]
     }
   ]

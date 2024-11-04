@@ -11,7 +11,7 @@ labels:
   - Scrapper
   - Backend
   - Bible
-summary: I made a backend for get the bible passage and daily reflection / devotion 
+summary: Backend application to fetch Bible passages and daily devotional content.
 ---
 
 <div class="ui small rounded images">
@@ -19,12 +19,14 @@ summary: I made a backend for get the bible passage and daily reflection / devot
   <img class="ui image" src="../images/alkitab2.png">
 </div>
 
-I created this backend or application simply to get bible passage and to get daily reflection or devotion.  
+Backend application to fetch Bible passages and daily devotional content.
 
-I made this in spite of learning how to scrapping web data using cheerio.
+This application was created to fetch Bible passages and daily devotional content. 
 
-For the code itself, you can check it at my [repo](https://github.com/indrapalijama/alkitab-api-v2) 
+It was made while learning web scraping using Cheerio.
 
-If you want to discuss on this project, or have something to talk about. Feel free to [contact me](indrapalijama.github.io) or simply just run `npx indrapalijama` from your terminal!
+The code for this project is available in my  [repo](https://github.com/indrapalijama/alkitab-api-v2). 
+
+If you would like to discuss this project or have any questions, feel free to contact [contact me](indrapalijama.github.io) or simply just run `npx indrapalijama` from your terminal!
 
 

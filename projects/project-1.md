@@ -10,7 +10,7 @@ labels:
   - Android
   - Ionic
   - Mobile Application
-summary: I'm developing an application for shipping companies called Abang Express 
+summary: Shipping application for Abang Express.
 ---
 
 <div class="ui small rounded images">
@@ -19,14 +19,12 @@ summary: I'm developing an application for shipping companies called Abang Expre
   <img class="ui image" src="../images/abang3.png">
 </div>
 
-Abang Express Mobile Application is an app i created that functioning as basic application for the companies transactions, such as :  create a booking, tracking the package, or see your booking list, etc.  
+This is a mobile application created for shipping companies to handle basic functionalities such as creating bookings, tracking packages, and viewing booking history.
 
-For this project, I was the  programmer who was responsible for developing and publishing this app.  
+The developer was responsible for the programming and publishing of this application. The code is saved in a private GitHub repository as it contains confidential company data.
 
-For the code itself is saving under a private repositories in Github because it contains a private data companies use.
+Due to the company's request, this application has been removed from the Google Play Store.
 
-From now on, this apps has been removed from google play store due to companies request.
-
-If you want to discuss on this project, or have something to talk about. Feel free to [contact me](indrapalijama.github.io) or simply just run `npx indrapalijama` from your terminal!
+If you would like to discuss this project or have any questions, feel free to contact [contact me](indrapalijama.github.io) or simply just run `npx indrapalijama` from your terminal!
 
 

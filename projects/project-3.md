@@ -10,7 +10,7 @@ labels:
   - Ionic Framework
   - QR Code
   - Mobile App
-summary: I created a mobile application that generates QR codes for any text, URL, or contact information.
+summary: PWA application that generates QR codes for text, URLs, or contact information.
 ---
 
 <div class="ui small rounded images">
@@ -32,4 +32,6 @@ Some key features of the application include:
 - Provides a clean and modern user interface
 - Allows users to customize the QR code's color and size
 
-The code for this project is available on my [GitHub repository](https://github.com/indrapalijama/mobile-qr-generator). If you have any questions or would like to discuss the project further, feel free to [contact me](indrapalijama.github.io) or run `npx indrapalijama` in your terminal.
+The code for this project is available on my [GitHub repository](https://github.com/indrapalijama/mobile-qr-generator). 
+
+If you would like to discuss this project or have any questions, feel free to contact [contact me](indrapalijama.github.io) or simply just run `npx indrapalijama` from your terminal!
