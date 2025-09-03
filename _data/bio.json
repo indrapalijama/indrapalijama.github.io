@@ -33,11 +33,7 @@
       "keywords": []
     },
     {
-<<<<<<< HEAD
-      "name": "Web",
-=======
       "name": "Web Development",
->>>>>>> 8c3dd2e (update biodata)
       "keywords": []
     },
     {
@@ -72,11 +68,7 @@
   ],
   "education": [
     {
-<<<<<<< HEAD
       "institution": "Atma Jaya Yogyakarta University",
-=======
-      "institution": "Universitas Atma Jaya Yogyakarta",
->>>>>>> 8c3dd2e (update biodata)
       "area": "Informatics Engineering",
       "studyType": "B.E.",
       "startDate": "2012",
@@ -94,13 +86,6 @@
       "website": "",
       "startDate": "2018",
       "endDate": "2022",
-<<<<<<< HEAD
-      "summary": "Developing and Maintaining Company's CRM Mobile Apps",
-      "highlights": [
-        "Developing and Maintaining Mobile Apps",
-        "Designing and implementating new features for Mobile Apps",
-        "Research and implementing new technologies or stacks for future use"
-=======
       "summary": "Fullstack Developer",
       "highlights": [
         "Developed and maintained company's CRM mobile applications using Ionic Framework and TypeScript, improving customer engagement rates",
@@ -108,7 +93,6 @@
         "Researched and integrated Capacitor plugins to implement advanced device features for future mobile app functionality",
         "Performed comprehensive manual testing with documented test cases, reducing post-release bugs",
         "Deployed mobile applications to Google Play Store and Apple App Store, managing the entire submission and compliance process."
->>>>>>> 8c3dd2e (update biodata)
       ]
     },
     {
@@ -116,16 +100,6 @@
       "position": "Developer - System RnD",
       "website": "",
       "startDate": "2022",
-<<<<<<< HEAD
-      "endDate": "Present",
-      "summary": "Developing and Maintaining Company's CRM Mobile Apps",
-      "highlights": [
-        "Developing and Maintaining Mobile Apps",
-        "Designing and implementating new features for Mobile Apps",
-        "Research and implementing new technologies or stacks for future use",
-        "Testing the developed apps",
-        "Deploy mobile apps to google play and apple apps store"
-=======
       "endDate": "2024",
       "summary": "Fullstack Developer",
       "highlights": [
@@ -149,7 +123,6 @@
         "Researched and integrated Capacitor plugins to implement advanced device features for future mobile app functionality",
         "Performed comprehensive manual testing with documented test cases, reducing post-release bugs",
         "Deployed mobile applications to Google Play Store and Apple App Store, managing the entire submission and compliance process."
->>>>>>> 8c3dd2e (update biodata)
       ]
     }
   ]
