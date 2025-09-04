@@ -6,13 +6,13 @@
     "email": "indrapalijama@gmail.com",
     "phone": "",
     "website": "https://indrapalijama.github.io",
-    "summary": "Motivated, proactive, and hands-on developer with 4+ years experience developing and managing information systems for software development",
+    "summary": "Motivated, proactive, and hands-on developer with experience in developing and managing information systems",
     "location": {
       "address": "Jl. Kuningan Barat 1",
       "postalCode": "12710",
       "city": "Jakarta Selatan",
       "countryCode": "ID",
-      "region": "DK Jakarta"
+      "region": "DKI Jakarta"
     },
     "profiles": [
       {
@@ -59,7 +59,7 @@
       "level": "",
       "keywords": [
         "VS Code",
-        "Git/GitHub",
+        "GitHub",
         "Postman",
         "Notion",
         "DBeaver"
