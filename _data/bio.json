@@ -1,243 +1,254 @@
 {
-  "basics": {
-    "name": "Samudra Palijama",
-    "label": "Fullstack Developer",
-    "picture": "https://indrapalijama.github.io/images/bio.png",
-    "email": "indrapalijama@gmail.com",
-    "phone": "",
-    "website": "https://indrapalijama.github.io",
-    "summary": "Motivated fullstack developer with 6+ years of experience in developing and maintaining mobile applications using Ionic Framework, TypeScript, and modern web technologies. Specialized in cross-platform mobile development for iOS and Android platforms.",
-    "location": {
-      "address": "",
-      "postalCode": "12710",
-      "city": "South Jakarta",
-      "countryCode": "ID",
-      "region": "DKI Jakarta"
+    "basics": {
+        "name": "Samudra Palijama",
+        "label": "Fullstack Developer",
+        "picture": "https://indrapalijama.github.io/images/bio.png",
+        "email": "indrapalijama@gmail.com",
+        "phone": "",
+        "website": "https://indrapalijama.github.io",
+        "summary": "Motivated fullstack developer with 6+ years of experience in developing and maintaining mobile applications using Ionic Framework, TypeScript, and modern web technologies. Specialized in cross-platform mobile development for iOS and Android platforms.",
+        "location": {
+            "address": "",
+            "postalCode": "12710",
+            "city": "South Jakarta",
+            "countryCode": "ID",
+            "region": "DKI Jakarta"
+        },
+        "profiles": [
+            {
+                "network": "github",
+                "username": "indrapalijama",
+                "url": "https://github.com/indrapalijama"
+            },
+            {
+                "network": "linkedin",
+                "username": "samudrapalijama",
+                "url": "https://www.linkedin.com/in/samudrapalijama/"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "indrapalijama",
-        "url": "https://github.com/indrapalijama"
-      },
-      {
-        "network": "linkedin",
-        "username": "samudrapalijama",
-        "url": "https://www.linkedin.com/in/samudrapalijama/"
-      }
+    "interests": [
+        {
+            "name": "Mobile App Development",
+            "keywords": [
+                "iOS",
+                "Android",
+                "Cross-platform"
+            ]
+        },
+        {
+            "name": "Reading",
+            "keywords": []
+        },
+        {
+            "name": "Photography",
+            "keywords": []
+        },
+        {
+            "name": "Anime",
+            "keywords": []
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "level": "",
+            "keywords": [
+                "JavaScript",
+                "TypeScript",
+                "Objective-C"
+            ]
+        },
+        {
+            "name": "Frameworks & Libraries",
+            "level": "",
+            "keywords": [
+                "Ionic Framework",
+                "Angular",
+                "ExpressJS",
+                "NestJS"
+            ]
+        },
+        {
+            "name": "Mobile Development",
+            "level": "",
+            "keywords": [
+                "iOS Development",
+                "Android Development",
+                "Capacitor Plugins",
+                "Cross-platform Development"
+            ]
+        },
+        {
+            "name": "Tools & Technologies",
+            "level": "",
+            "keywords": [
+                "VS Code",
+                "GitHub",
+                "Google Play Store",
+                "Apple App Store",
+                "Postman",
+                "Cheerio",
+                "Web Scraping"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Professional proficiency"
+        },
+        {
+            "language": "Bahasa Indonesia",
+            "fluency": "Native"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universitas Atma Jaya Yogyakarta",
+            "area": "Informatics Engineering",
+            "studyType": "Bachelor's Degree",
+            "startDate": "2012",
+            "endDate": "2017",
+            "gpa": "",
+            "courses": [
+                "Mobile Programming",
+                "Software Engineering",
+                "Data Structures and Algorithms"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "company": "Computrade Technology International, PT",
+            "position": "Fullstack Developer",
+            "website": "",
+            "startDate": "2018-07",
+            "endDate": "2025-10",
+            "summary": "Developed and maintained company's CRM mobile applications using modern web and mobile technologies.",
+            "highlights": [
+                "Developed and maintained company's CRM mobile applications using Ionic Framework and TypeScript, improving customer engagement rates",
+                "Designed and implemented new features for iOS and Android platforms, enhancing user retention through responsive UI/UX design",
+                "Researched and integrated Capacitor plugins to implement advanced device features for future mobile app functionality",
+                "Performed comprehensive manual testing with documented test cases, reducing post-release bugs",
+                "Deployed mobile applications to Google Play Store and Apple App Store, managing the entire submission and compliance process"
+            ]
+        },
+        {
+            "company": "Great Giant Foods, PT",
+            "position": "Fullstack Developer",
+            "website": "",
+            "startDate": "2025-11",
+            "endDate": "Present",
+            "summary": "Developing, Maintaing and Collaborating on company's Agriculture Apps using modern web and mobile technologies.",
+            "highlights": [
+                "In progress"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Mobile QR Code Generator",
+            "description": "Developed a mobile application using Ionic Framework that enables users to generate QR codes for text, URLs, and contact information. Built with TypeScript, the app features an intuitive interface for creating and sharing QR codes on-the-go.",
+            "highlights": [
+                "Built with Ionic Framework and TypeScript",
+                "Support for saving to device gallery",
+                "Customizable colors and sizes",
+                "Cross-platform compatibility for iOS and Android"
+            ],
+            "keywords": [
+                "Ionic",
+                "TypeScript",
+                "Mobile Development",
+                "QR Code Generation"
+            ],
+            "startDate": "",
+            "endDate": "",
+            "url": "",
+            "roles": [
+                "Developer"
+            ],
+            "entity": "",
+            "type": "application"
+        },
+        {
+            "name": "Holy Bible / Alkitab API",
+            "description": "Developed a RESTful backend application using ExpressJS that fetches Bible passages and daily devotional content via web scraping with Cheerio. The API supports both English and Indonesian Bible versions.",
+            "highlights": [
+                "RESTful API built with ExpressJS",
+                "Web scraping implementation with Cheerio",
+                "Search and retrieve specific verses and books",
+                "Multiple Bible translations support",
+                "Daily devotional content integration"
+            ],
+            "keywords": [
+                "ExpressJS",
+                "Node.js",
+                "Web Scraping",
+                "Cheerio",
+                "REST API"
+            ],
+            "startDate": "",
+            "endDate": "",
+            "url": "",
+            "roles": [
+                "Backend Developer"
+            ],
+            "entity": "",
+            "type": "application"
+        },
+        {
+            "name": "Logistic Delivery Mobile Apps",
+            "description": "Developed a comprehensive mobile application for a shipping company using Ionic and Angular. Successfully deployed to Google Play Store with core logistics functionalities.",
+            "highlights": [
+                "Built with Ionic Framework and Angular",
+                "Booking creation and management system",
+                "Package tracking functionality",
+                "Booking history review feature",
+                "Secure authentication system",
+                "Integrated shipping cost calculator with dimensional weight support",
+                "Successfully deployed to Google Play Store"
+            ],
+            "keywords": [
+                "Ionic",
+                "Angular",
+                "Mobile Development",
+                "Logistics",
+                "Google Play Store"
+            ],
+            "startDate": "",
+            "endDate": "",
+            "url": "",
+            "roles": [
+                "Mobile Developer"
+            ],
+            "entity": "",
+            "type": "application"
+        },
+        {
+            "name": "Location-Based Augmented Reality Tourism App",
+            "description": "Bachelor's thesis project: Design and Development of Location-Based Augmented Reality Application for Tourism in Ambon City. Developed using Objective-C and iOS native frameworks.",
+            "highlights": [
+                "Developed using Objective-C and iOS native frameworks",
+                "Location-based augmented reality features",
+                "Tourism application for Ambon City",
+                "Native iOS development"
+            ],
+            "keywords": [
+                "Objective-C",
+                "iOS Development",
+                "Augmented Reality",
+                "Location-based Services",
+                "Tourism"
+            ],
+            "startDate": "2016",
+            "endDate": "2017",
+            "url": "",
+            "roles": [
+                "iOS Developer"
+            ],
+            "entity": "Atma Jaya University Yogyakarta",
+            "type": "application"
+        }
     ]
-  },
-  "interests": [
-    {
-      "name": "Mobile App Development",
-      "keywords": [
-        "iOS",
-        "Android",
-        "Cross-platform"
-      ]
-    },
-    {
-      "name": "Reading",
-      "keywords": []
-    },
-    {
-      "name": "Photography",
-      "keywords": []
-    },
-    {
-      "name": "Anime",
-      "keywords": []
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "level": "",
-      "keywords": [
-        "JavaScript",
-        "TypeScript",
-        "Objective-C"
-      ]
-    },
-    {
-      "name": "Frameworks & Libraries",
-      "level": "",
-      "keywords": [
-        "Ionic Framework",
-        "Angular",
-        "ExpressJS",
-        "NestJS"
-      ]
-    },
-    {
-      "name": "Mobile Development",
-      "level": "",
-      "keywords": [
-        "iOS Development",
-        "Android Development",
-        "Capacitor Plugins",
-        "Cross-platform Development"
-      ]
-    },
-    {
-      "name": "Tools & Technologies",
-      "level": "",
-      "keywords": [
-        "VS Code",
-        "GitHub",
-        "Google Play Store",
-        "Apple App Store",
-        "Postman",
-        "Cheerio",
-        "Web Scraping"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Professional proficiency"
-    },
-    {
-      "language": "Bahasa Indonesia",
-      "fluency": "Native"
-    }
-  ],
-  "education": [
-    {
-      "institution": "Atma Jaya University Yogyakarta",
-      "area": "Informatics Engineering",
-      "studyType": "Bachelor's Degree",
-      "startDate": "2012",
-      "endDate": "2017",
-      "gpa": "",
-      "courses": [
-        "Mobile Programming",
-        "Software Engineering",
-        "Data Structures and Algorithms"
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "Computrade Technology International, PT",
-      "position": "Fullstack Developer",
-      "website": "",
-      "startDate": "2018-07",
-      "endDate": "Present",
-      "summary": "Currently developing and maintaining company's CRM mobile applications using modern web and mobile technologies.",
-      "highlights": [
-        "Developed and maintained company's CRM mobile applications using Ionic Framework and TypeScript, improving customer engagement rates",
-        "Designed and implemented new features for iOS and Android platforms, enhancing user retention through responsive UI/UX design",
-        "Researched and integrated Capacitor plugins to implement advanced device features for future mobile app functionality",
-        "Performed comprehensive manual testing with documented test cases, reducing post-release bugs",
-        "Deployed mobile applications to Google Play Store and Apple App Store, managing the entire submission and compliance process"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Mobile QR Code Generator",
-      "description": "Developed a mobile application using Ionic Framework that enables users to generate QR codes for text, URLs, and contact information. Built with TypeScript, the app features an intuitive interface for creating and sharing QR codes on-the-go.",
-      "highlights": [
-        "Built with Ionic Framework and TypeScript",
-        "Support for saving to device gallery",
-        "Customizable colors and sizes",
-        "Cross-platform compatibility for iOS and Android"
-      ],
-      "keywords": [
-        "Ionic",
-        "TypeScript",
-        "Mobile Development",
-        "QR Code Generation"
-      ],
-      "startDate": "",
-      "endDate": "",
-      "url": "",
-      "roles": [
-        "Developer"
-      ],
-      "entity": "",
-      "type": "application"
-    },
-    {
-      "name": "Holy Bible / Alkitab API",
-      "description": "Developed a RESTful backend application using ExpressJS that fetches Bible passages and daily devotional content via web scraping with Cheerio. The API supports both English and Indonesian Bible versions.",
-      "highlights": [
-        "RESTful API built with ExpressJS",
-        "Web scraping implementation with Cheerio",
-        "Search and retrieve specific verses and books",
-        "Multiple Bible translations support",
-        "Daily devotional content integration"
-      ],
-      "keywords": [
-        "ExpressJS",
-        "Node.js",
-        "Web Scraping",
-        "Cheerio",
-        "REST API"
-      ],
-      "startDate": "",
-      "endDate": "",
-      "url": "",
-      "roles": [
-        "Backend Developer"
-      ],
-      "entity": "",
-      "type": "application"
-    },
-    {
-      "name": "Logistic Delivery Mobile Apps",
-      "description": "Developed a comprehensive mobile application for a shipping company using Ionic and Angular. Successfully deployed to Google Play Store with core logistics functionalities.",
-      "highlights": [
-        "Built with Ionic Framework and Angular",
-        "Booking creation and management system",
-        "Package tracking functionality",
-        "Booking history review feature",
-        "Secure authentication system",
-        "Integrated shipping cost calculator with dimensional weight support",
-        "Successfully deployed to Google Play Store"
-      ],
-      "keywords": [
-        "Ionic",
-        "Angular",
-        "Mobile Development",
-        "Logistics",
-        "Google Play Store"
-      ],
-      "startDate": "",
-      "endDate": "",
-      "url": "",
-      "roles": [
-        "Mobile Developer"
-      ],
-      "entity": "",
-      "type": "application"
-    },
-    {
-      "name": "Location-Based Augmented Reality Tourism App",
-      "description": "Bachelor's thesis project: Design and Development of Location-Based Augmented Reality Application for Tourism in Ambon City. Developed using Objective-C and iOS native frameworks.",
-      "highlights": [
-        "Developed using Objective-C and iOS native frameworks",
-        "Location-based augmented reality features",
-        "Tourism application for Ambon City",
-        "Native iOS development"
-      ],
-      "keywords": [
-        "Objective-C",
-        "iOS Development",
-        "Augmented Reality",
-        "Location-based Services",
-        "Tourism"
-      ],
-      "startDate": "2016",
-      "endDate": "2017",
-      "url": "",
-      "roles": [
-        "iOS Developer"
-      ],
-      "entity": "Atma Jaya University Yogyakarta",
-      "type": "application"
-    }
-  ]
 }
