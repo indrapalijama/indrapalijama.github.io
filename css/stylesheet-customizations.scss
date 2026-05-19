@@ -2,70 +2,349 @@
 # Provide front matter so Jekyll processes this file as SASS.
 ---
 
-// Put your custom CSS here if you want to override the defaults.
-// Here are some common customizations for colors
+$surface: #000000;
+$panel: #0B0C0A;
+$signal: #C6FF4A;
+$text: #F7F7F8;
+$muted: rgba(247, 247, 248, 0.66);
+$line: rgba(198, 255, 74, 0.34);
 
-$uh-green-official: #024731; // https://www.hawaii.edu/offices/eaur/graphicsguide.html
-$uh-green: lighten($uh-green-official, 5%);
-$uh-green-light: lighten($uh-green-official, 10%);
-
-// Customize the menubar color
-.ui.menu {
-  background: $uh-green-light;
-  border-radius: 0;
-  a.item {
-    color: white;
-
-    &:hover {
-      color: white;
-      background-color: $uh-green;
-    }
-  }
-
-  a.active.item,
-  a.active.item:hover {
-    color: white;
-    background-color: $uh-green;
-  }
+html,
+body {
+  min-height: 100%;
+  background: $surface !important;
+  color: $text;
+  font-family: "IBM Plex Mono", "JetBrains Mono", "Berkeley Mono", Menlo, Consolas, monospace !important;
+  font-variant-numeric: tabular-nums;
 }
 
-// "Read More" buttons
-a.ui.bottom.attached.button {
-  color: white;
-  background: $uh-green-light;
-
-  &:hover {
-    background: $uh-green;
-  }
+body {
+  margin: 0;
+  letter-spacing: -0.02em;
 }
 
-// Tag pill boxes
-div.ui.basic.label {
-  color: white;
-  background: $uh-green-light;
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, $line 1px, transparent 1px),
+    linear-gradient(180deg, rgba(247, 247, 248, 0.08) 1px, transparent 1px);
+  background-size: 96px 96px, 24px 24px;
+  opacity: 0.28;
+  z-index: -1;
 }
 
-// General links
+* {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
 a {
-  color: $uh-green-light;
-  &:hover {
-    color: $uh-green;
+  color: $signal;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $surface;
+    background: $signal;
+    outline: 1px solid $signal;
   }
 }
 
-// Home page buttons (projects, essays, cv, etc)
+.portfolio-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 56px 0;
+}
+
+.hero-grid,
+.workbench-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  border-top: 1px solid $line;
+  border-left: 1px solid $line;
+}
+
+.profile-panel,
+.summary-panel,
+.command-rail,
+.signal-card {
+  background: rgba(11, 12, 10, 0.92);
+  border-right: 1px solid $line;
+  border-bottom: 1px solid $line;
+}
+
+.profile-panel {
+  grid-column: span 7;
+  min-height: 520px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  padding: 24px;
+}
+
+.profile-photo {
+  width: min(280px, 48vw);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid $signal;
+  filter: grayscale(1) contrast(1.24);
+}
+
+.identity-stack {
+  align-self: end;
+}
+
+.terminal-label {
+  margin: 0 0 14px;
+  color: $signal;
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+h1 {
+  margin: 0;
+  color: $text;
+  font-size: clamp(56px, 11vw, 148px);
+  line-height: 0.82;
+  font-weight: 700;
+  letter-spacing: -0.08em;
+}
+
+.role-line {
+  max-width: 560px;
+  margin: 24px 0 0;
+  color: $muted;
+  font-size: clamp(18px, 3vw, 34px);
+  line-height: 1.05;
+}
+
+.summary-panel {
+  grid-column: span 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.summary-panel p {
+  margin: 0;
+  font-size: clamp(18px, 2.2vw, 30px);
+  line-height: 1.18;
+}
+
+.summary-panel .current-line {
+  margin-top: 36px;
+  color: $signal;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.command-rail {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.command-rail a {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  border-right: 1px solid $line;
+  color: $text;
+}
+
+.command-rail a:last-child {
+  border-right: 0;
+}
+
+.command-rail a:hover,
+.command-rail a:focus {
+  color: $surface;
+  background: $signal;
+}
+
+.workbench-grid {
+  margin-top: 28px;
+}
+
+.signal-card {
+  grid-column: span 4;
+  min-height: 188px;
+  padding: 20px;
+}
+
+.span-two {
+  grid-column: span 8;
+}
+
+.stack-list,
+.project-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.stack-list span,
+.project-strip a {
+  display: inline-flex;
+  border: 1px solid $line;
+  padding: 10px 12px;
+  color: $text;
+  background: $surface;
+  font-family: inherit;
+}
+
+.command-card {
+  min-height: 154px;
+}
+
+.command-card code {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 72px;
+  border: 1px solid $line;
+  padding: 0 18px;
+  color: $text;
+  background: $surface;
+  font-family: inherit;
+  font-size: clamp(22px, 4vw, 52px);
+  line-height: 1;
+  letter-spacing: -0.08em;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.command-card code span {
+  margin-right: 14px;
+  color: $signal;
+}
+
+.project-strip a:hover,
+.project-strip a:focus {
+  color: $surface;
+  background: $signal;
+}
+
+.metric-card strong {
+  display: block;
+  color: $text;
+  font-size: clamp(42px, 7vw, 82px);
+  line-height: 0.9;
+  letter-spacing: -0.08em;
+}
+
+.metric-card span {
+  display: block;
+  margin-top: 18px;
+  color: $muted;
+  line-height: 1.35;
+}
+
+.ui.menu {
+  background: $surface;
+  border: 0;
+  border-bottom: 1px solid $line;
+  font-family: inherit;
+}
+
+.ui.menu a.item,
+.ui.menu .item {
+  color: $text;
+  border-right: 1px solid $line;
+}
+
+.ui.menu a.item:hover,
+.ui.menu a.active.item,
+.ui.menu a.active.item:hover {
+  color: $surface;
+  background: $signal;
+}
+
+.ui.container {
+  color: $text;
+}
+
+.ui.card,
+.ui.cards > .card,
+.ui.segment,
+.ui.label,
+.ui.basic.label {
+  color: $text;
+  background: $panel;
+  border: 1px solid $line;
+}
+
+.ui.card > .content > .header,
+.ui.cards > .card > .content > .header,
+.ui.header,
+h2,
+h3,
+h4 {
+  color: $text !important;
+  font-family: inherit !important;
+}
+
+.ui.card .meta,
+.ui.cards > .card .meta,
+.ui.card .description,
+.ui.cards > .card .description,
+p,
+li {
+  color: $muted;
+  font-family: inherit;
+}
+
 .ui.basic.button,
-.ui.basic.buttons .button {
-  background: $uh-green-light !important;
-  color: white !important;
-
-  &:hover {
-    background: $uh-green !important;
-    color: white !important;
-  }
+.ui.basic.buttons .button,
+a.ui.bottom.attached.button {
+  color: $surface !important;
+  background: $signal !important;
+  border: 1px solid $signal !important;
+  font-family: inherit !important;
 }
 
-// Customize the home page icon colors
-.icon-color {
-  color: $uh-green-light;
+.ui.basic.button:hover,
+.ui.basic.buttons .button:hover,
+a.ui.bottom.attached.button:hover {
+  color: $signal !important;
+  background: $surface !important;
+}
+
+.icon-color,
+.ui.label,
+.ui.basic.label {
+  color: $signal !important;
+}
+
+@media (max-width: 860px) {
+  .portfolio-shell {
+    width: calc(100% - 20px);
+    padding: 20px 0;
+  }
+
+  .profile-panel,
+  .summary-panel,
+  .signal-card,
+  .span-two {
+    grid-column: 1 / -1;
+  }
+
+  .profile-panel {
+    min-height: 440px;
+  }
+
+  .command-rail {
+    grid-template-columns: 1fr;
+  }
+
+  .command-rail a {
+    border-right: 0;
+    border-bottom: 1px solid $line;
+  }
 }

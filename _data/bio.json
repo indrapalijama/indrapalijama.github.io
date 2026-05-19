@@ -127,11 +127,11 @@
             "endDate": "2025-10",
             "summary": "Developed and maintained company's CRM mobile applications using modern web and mobile technologies.",
             "highlights": [
-                "Developed and maintained company's CRM mobile applications using Ionic Framework and TypeScript, improving customer engagement rates",
-                "Designed and implemented new features for iOS and Android platforms, enhancing user retention through responsive UI/UX design",
-                "Researched and integrated Capacitor plugins to implement advanced device features for future mobile app functionality",
-                "Performed comprehensive manual testing with documented test cases, reducing post-release bugs",
-                "Deployed mobile applications to Google Play Store and Apple App Store, managing the entire submission and compliance process"
+                "Developed and maintained CRM mobile applications using Ionic Framework, Angular, and TypeScript for iOS and Android",
+                "Built responsive mobile features and UI/UX improvements to support customer engagement and app usability",
+                "Integrated Capacitor plugins to enable native device capabilities and future mobile functionality",
+                "Performed manual testing with documented test cases to improve release quality and reduce bugs",
+                "Managed app deployment to Google Play Store and Apple App Store, including build preparation and submission"
             ]
         },
         {
@@ -142,7 +142,10 @@
             "endDate": "Present",
             "summary": "Developing, Maintaing and Collaborating on company's Agriculture Apps using modern web and mobile technologies.",
             "highlights": [
-                "In progress"
+                "Developed and maintained full-stack internal applications using PHP, Laravel, NestJS, Flutter, JavaScript, and SQL",
+                "Contributed to TPM digitalization by building features for work plans, checklists, issues, tickets, QC, MTTR, reports, and dashboards",
+                "Implemented backend logic, database queries, API integrations, validations, Blade views, and operational reporting features",
+                "Supported deployment, environment configuration, release preparation, troubleshooting, and application delivery"
             ]
         }
     ],

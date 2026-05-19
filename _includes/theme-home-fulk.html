@@ -1,73 +1,73 @@
-<!-- Home page design with small circular image bisecting card. -->
-
 {% assign essay_pages = site.pages | where: "type", "essay" | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
+{% assign current_work = site.data.bio.work | where: "endDate", "Present" | first %}
 
-<div style="height: 100%; margin-top: -75px" class="ui middle aligned grid">
-
-    <div class="column">
-
-        <div style="position: relative; top: 75px; z-index: 1" class="ui fluid centered small circular image">
-            <img src="{{ site.data.bio.basics.picture }}">
-        </div>
-
-
-        <div style="max-width: 500px; padding-top: 75px; margin-top: 0px" class="ui fluid centered card">
-
-            <div class="center aligned content">
-                <span class="header">{{ site.data.bio.basics.name }}</span>
-                <div class="meta">
-                    <span class="date">{{ site.data.bio.basics.label }}</span>
-                </div>
-                <div class="center aligned description">
-                    {{ site.data.bio.basics.summary }}
-                </div>
-            </div>
-            <div class="center aligned content">
-                <div class="description">
-                    type <i> npx indrapalijama </i> on your terminal to get my personal business card 😎
-                </div>
-            </div>
-            <div class="center aligned content">
-                <div class="description">
-                    Interests:
-                    {% for interest in site.data.bio.interests %}
-                    {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="center aligned extra content">
-                {% include home-network-links.html %}
-            </div>
-            <div class="center aligned content">
-                <a href="{{ site.baseurl}}/bio/">
-                    <button class="uhbtn ui basic button">{{ site.bio-page-label }}</button>
-                </a>
-                <a href="{{ site.baseurl}}/projects/">
-                    <button class="uhbtn ui basic button">Projects ({{ num_projects }})</button>
-                </a>
-            </div>
-        </div>
+<main class="portfolio-shell">
+  <section class="hero-grid" aria-labelledby="portfolio-title">
+    <div class="profile-panel">
+      <img src="{{ site.data.bio.basics.picture }}" alt="{{ site.data.bio.basics.name }}" class="profile-photo">
+      <div class="identity-stack">
+        <p class="terminal-label">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.countryCode }}</p>
+        <h1 id="portfolio-title">{{ site.data.bio.basics.name }}</h1>
+        <p class="role-line">{{ site.data.bio.basics.label }}</p>
+      </div>
     </div>
 
-</div>
+    <div class="summary-panel">
+      <p>{{ site.data.bio.basics.summary }}</p>
+      {% if current_work %}
+      <p class="current-line">Current: {{ current_work.position }} at {{ current_work.company }}</p>
+      {% endif %}
+    </div>
 
-<script type="text/javascript">
-    /* Terrible ugly hack to get nice background image on main page without changing other templates */
-    document.addEventListener("DOMContentLoaded", function () {
-        var body = document.getElementsByTagName("body")[0];
-        body.style.cssText =
-            'background: url("../images/optimized-bg.png");' +
-            'background-size: cover;' +
-            'background-position: center;' +
-            'background-repeat: no-repeat;';
+    <nav class="command-rail" aria-label="Primary links">
+      <a href="{{ site.baseurl }}/bio/">{{ site.bio-page-label }}</a>
+      <a href="{{ site.baseurl }}/projects/">Projects ({{ num_projects }})</a>
+      <a href="mailto:{{ site.data.bio.basics.email }}">Email</a>
+      {% for profile in site.data.bio.basics.profiles %}
+      <a href="{{ profile.url }}">{{ profile.network | capitalize }}</a>
+      {% endfor %}
+    </nav>
+  </section>
 
-        var uhbtns = document.getElementsByClassName("uhbtn");
-        for (var i = 0; i < uhbtns.length; i++) {
-            uhbtns[i].cssText = "background-color: green;";
-        }
-    });
+  <section class="workbench-grid" aria-label="Portfolio overview">
+    <article class="signal-card span-two">
+      <p class="terminal-label">Selected stack</p>
+      <div class="stack-list">
+        {% for skill in site.data.bio.skills %}
+          {% for keyword in skill.keywords limit: 3 %}
+          <span>{{ keyword }}</span>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </article>
 
-</script>
+    <article class="signal-card metric-card">
+      <p class="terminal-label">Experience</p>
+      <strong>6+ years</strong>
+      <span>mobile and fullstack development</span>
+    </article>
+
+    <article class="signal-card metric-card">
+      <p class="terminal-label">Focus</p>
+      <strong>Ionic</strong>
+      <span>iOS, Android, Angular, TypeScript</span>
+    </article>
+
+    <article class="signal-card span-two">
+      <p class="terminal-label">Projects</p>
+      <div class="project-strip">
+        {% for project in site.data.bio.projects limit: 4 %}
+        <a href="{{ site.baseurl }}/projects/">{{ project.name }}</a>
+        {% endfor %}
+      </div>
+    </article>
+
+    <article class="signal-card command-card span-two">
+      <p class="terminal-label">Terminal card</p>
+      <code><span>$</span> npx indrapalijama</code>
+    </article>
+  </section>
+</main>
