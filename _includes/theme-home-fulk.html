@@ -25,7 +25,6 @@
     <nav class="command-rail" aria-label="Primary links">
       <a href="{{ site.baseurl }}/bio/">{{ site.bio-page-label }}</a>
       <a href="{{ site.baseurl }}/projects/">Projects ({{ num_projects }})</a>
-      <a href="mailto:{{ site.data.bio.basics.email }}">Email</a>
       {% for profile in site.data.bio.basics.profiles %}
       <a href="{{ profile.url }}">{{ profile.network | capitalize }}</a>
       {% endfor %}

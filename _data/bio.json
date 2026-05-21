@@ -2,10 +2,10 @@
     "basics": {
         "name": "Samudra Palijama",
         "label": "Fullstack Developer",
-        "picture": "https://indrapalijama.github.io/images/bio.png",
-        "email": "indrapalijama@gmail.com",
+        "picture": "https://indrapalijama.is-a.dev/images/bio.png",
+        "email": "",
         "phone": "",
-        "website": "https://indrapalijama.github.io",
+        "website": "https://indrapalijama.is-a.dev",
         "summary": "Motivated fullstack developer with 6+ years of experience in developing and maintaining mobile applications using Ionic Framework, TypeScript, and modern web technologies. Specialized in cross-platform mobile development for iOS and Android platforms.",
         "location": {
             "address": "",

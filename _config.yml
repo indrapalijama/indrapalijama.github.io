@@ -4,7 +4,7 @@
 # Edit next line, providing your own name.
 title: Samudra Palijama
 # Edit next line, replacing 'techfolios' with your github username
-url: "https://indrapalijama.github.io"
+url: "https://indrapalijama.is-a.dev"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
 # baseurl: "/template"
 baseurl: ""
@@ -25,4 +25,3 @@ rouge-theme: igorpro
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
 include: [_data]
-

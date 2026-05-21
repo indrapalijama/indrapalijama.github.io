@@ -348,3 +348,117 @@ a.ui.bottom.attached.button:hover {
     border-bottom: 1px solid $line;
   }
 }
+
+.bio-header,
+.bio-body {
+  background: rgba(11, 12, 10, 0.92);
+  border: 1px solid $line;
+  margin-top: 24px !important;
+  margin-bottom: 0 !important;
+  padding: 18px !important;
+}
+
+.bio-body {
+  border-top: 0;
+  margin-bottom: 32px !important;
+}
+
+.bio-header .column,
+.bio-body .column {
+  color: $text;
+}
+
+.bio-header h2.ui.header {
+  font-size: clamp(34px, 8vw, 86px);
+  line-height: 0.92;
+  letter-spacing: -0.08em;
+  text-align: left !important;
+}
+
+.bio-header p,
+.bio-body p,
+.bio-body li {
+  overflow-wrap: anywhere;
+}
+
+.bio-body > .row {
+  border-top: 1px solid $line;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+
+.bio-body > .row:first-child {
+  border-top: 0;
+}
+
+.bio-body h3.ui.header {
+  color: $signal !important;
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.bio-body .ui.grid {
+  margin-top: 0;
+  margin-bottom: 18px;
+  border: 1px solid $line;
+  background: $surface;
+}
+
+.bio-body .ui.grid:last-child {
+  margin-bottom: 0;
+}
+
+.bio-body .ui.grid > .column {
+  padding: 14px !important;
+}
+
+.bio-body .ui.grid > .right.aligned.column {
+  border-left: 1px solid $line;
+}
+
+.bio-body ul {
+  margin: 10px 0 0 !important;
+  padding-left: 20px;
+}
+
+@media (max-width: 860px) {
+  .bio-header,
+  .bio-body {
+    width: calc(100% - 20px) !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    padding: 12px !important;
+  }
+
+  .bio-header .left.aligned.column,
+  .bio-header .right.aligned.column,
+  .bio-body .column,
+  .bio-body .right.aligned.column {
+    text-align: left !important;
+  }
+
+  .bio-header .column,
+  .bio-body .row > .column,
+  .bio-body .ui.grid > .column {
+    width: 100% !important;
+  }
+
+  .bio-body > .row {
+    display: block !important;
+  }
+
+  .bio-body .ui.grid {
+    display: block !important;
+  }
+
+  .bio-body .ui.grid > .right.aligned.column {
+    border-left: 0;
+    border-top: 1px solid $line;
+  }
+
+  .bio-body h3.ui.header {
+    margin-bottom: 12px !important;
+  }
+}
