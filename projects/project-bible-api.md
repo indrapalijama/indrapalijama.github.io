@@ -55,5 +55,8 @@ The backend is built using ExpressJS and Node.js, providing a robust and scalabl
 
 This project showcases backend development skills, API design principles, web scraping techniques, and the ability to create scalable solutions that serve religious and educational content to users across different languages and translations.
 
+## Related Projects
+This API powers the mobile client application [Daily Reflection / Alkitab Mobile](../projects/daily-reflection).
+
 ## Repository
-the code for this project is available in my [repo](https://github.com/indrapalijama/alkitab-api-v2)
+The code for this project is available in my [GitHub repository](https://github.com/indrapalijama/alkitab-api-v2).

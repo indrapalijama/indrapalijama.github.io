@@ -54,6 +54,7 @@
             "name": "Programming Languages",
             "level": "",
             "keywords": [
+                "Kotlin",
                 "JavaScript",
                 "TypeScript",
                 "Objective-C"
@@ -63,6 +64,7 @@
             "name": "Frameworks & Libraries",
             "level": "",
             "keywords": [
+                "Jetpack Compose",
                 "Ionic Framework",
                 "Angular",
                 "ExpressJS",
@@ -150,6 +152,35 @@
         }
     ],
     "projects": [
+        {
+            "name": "Daily Reflection / Alkitab Mobile",
+            "description": "Developed a modern, local-first Android devotional and Bible study companion using Kotlin and Jetpack Compose. Combines multi-source daily devotionals, complete 66-book Scripture reader with multiple translations (TB, NIV, KJV), four hymnal songbooks with MIDI playback, and AI devotional summaries with Google Play Store deployment.",
+            "highlights": [
+                "Built natively with Kotlin, Jetpack Compose, and Material 3",
+                "Dedicated 66-book Bible reader with TB, NIV, and KJV translations",
+                "Four hymnal songbooks (KJ, PKJ, NKB, Nyanyian GPM) with on-demand MIDI playback",
+                "Integrated Google Gemini 2.5 Flash Lite for devotional insights and summaries",
+                "Local-first encrypted SQLite/Room database with SQLCipher",
+                "Cloud sync across devices via Firebase and Cloud Firestore",
+                "Published and live on Google Play Store"
+            ],
+            "keywords": [
+                "Android",
+                "Kotlin",
+                "Jetpack Compose",
+                "Material 3",
+                "Room Database",
+                "Google Play Store"
+            ],
+            "startDate": "2024",
+            "endDate": "Present",
+            "url": "https://play.google.com/store/apps/details?id=fulk.evilcorp.dailyreflection",
+            "roles": [
+                "Android Developer"
+            ],
+            "entity": "",
+            "type": "application"
+        },
         {
             "name": "Mobile QR Code Generator",
             "description": "Developed a mobile application using Ionic Framework that enables users to generate QR codes for text, URLs, and contact information. Built with TypeScript, the app features an intuitive interface for creating and sharing QR codes on-the-go.",
